@@ -2,7 +2,7 @@
 /shelf/
 /workspace.xml
 # Datasource local storage ignored files
-/../../../../../:\dev\BIF3-SWE1\bif3-swe1-java\.idea/dataSources/
+/../../../../../:\dev\BIF3-SWE1\bif3-swe1-java_tdd\.idea/dataSources/
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/

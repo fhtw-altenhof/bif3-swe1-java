@@ -1,154 +1,292 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1137a73a-03e8-4ea9-942f-1d5e79539d7e" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="d57072f5-2314-4fe3-85e4-64c4562e82c1" name="Default Changelist" comment="updated to Java 15; fixed POM">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/optimizedsolution/ShapeStackInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/classes/ClassWithMembers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/inheritance/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/inheritance/DerivedClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/abstractbaseclass/AbstractShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/abstractbaseclass/DerivedCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/abstractbaseclass/DerivedCompoundShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/abstractbaseclass/DerivedLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/interfacebasedshapes/BetterCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/interfacebasedshapes/BetterCompoundShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/interfacebasedshapes/BetterLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/interfacebasedshapes/BetterShapeCompositionInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/interfacebasedshapes/BetterShapeInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/interfacebasedshapes/BetterShapeMathInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/optimizedsolution/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/optimizedsolution/CompoundShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/optimizedsolution/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/optimizedsolution/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/optimizedsolution/ShapeCompositionInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/optimizedsolution/ShapeInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/optimizedsolution/ShapeMathInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/shapestackgit/ShapeStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/shapestackgit/ShapeStackInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bif3-swe1-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bif3-swe1-java.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
-  </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="bif3-swe1-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bif3-swe1-java" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <option value="module-info" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="bif3.swe1.Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hyA3eSkfciU2JmZKvsZnb3VMGJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="LombokPluginEnabledInProject" value="true" />
+    <property name="LombokPluginIS_ANNOTATION_PROCESSING_CHECK_Enabled" value="true" />
+    <property name="LombokPluginIS_BUILDER_Enabled" value="true" />
+    <property name="LombokPluginIS_CONSTRUCTOR_Enabled" value="true" />
+    <property name="LombokPluginIS_DELEGATE_Enabled" value="true" />
+    <property name="LombokPluginIS_LOG_Enabled" value="true" />
+    <property name="LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled" value="false" />
+    <property name="LombokPluginIS_MISSING_LOMBOK_CHECK_Enabled" value="false" />
+    <property name="LombokPluginIS_VAL_Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore.preview.features.used" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaLightsaberFight" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3770115" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RunManager" selected="Application.Main OOP">
+    <configuration name="Main OOP" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="bif3.swe1.oop.Main" />
       <module name="bif3-swe1-java" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main TDD" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="bif3.swe1.tdd.Main" />
+      <module name="bif3-swe1-java" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
+    <configuration name="AllTests" type="JUnit" factoryName="JUnit">
+      <module name="bif3-swe1-java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main OOP" />
+      <item itemvalue="Application.Main TDD" />
+      <item itemvalue="JUnit.AllTests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main TDD" />
+      </list>
+    </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1137a73a-03e8-4ea9-942f-1d5e79539d7e" name="Default" comment="" />
-      <created>1600955518711</created>
+      <changelist id="d57072f5-2314-4fe3-85e4-64c4562e82c1" name="Default Changelist" comment="" />
+      <created>1600972761318</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1600955518711</updated>
+      <updated>1600972761318</updated>
+      <workItem from="1600972762825" duration="579000" />
+      <workItem from="1600973363442" duration="320000" />
+      <workItem from="1600973703906" duration="928000" />
+      <workItem from="1600974660966" duration="3507000" />
+      <workItem from="1600978457349" duration="5286000" />
+      <workItem from="1601908635902" duration="6559000" />
+      <workItem from="1601923576521" duration="391000" />
     </task>
+    <task id="LOCAL-00001" summary="Upgraded to Java 14">
+      <created>1601911924466</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601911924466</updated>
+    </task>
+    <task id="LOCAL-00002" summary="extracted enum Aim from FighterInterface">
+      <created>1601922287550</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601922287550</updated>
+    </task>
+    <task id="LOCAL-00003" summary="renamed Darth to DarthVader">
+      <created>1601923258940</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601923258940</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updated to Java 15; fixed POM">
+      <created>1601923414220</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601923414220</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
-    <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-    </layout>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Upgraded to Java 14" />
+    <MESSAGE value="extracted enum Aim from FighterInterface" />
+    <MESSAGE value="renamed Darth to DarthVader" />
+    <MESSAGE value="updated to Java 15; fixed POM" />
+    <MESSAGE value="introduced Maven (leads to new src structures) and updated to Java 15" />
+    <option name="LAST_COMMIT_MESSAGE" value="introduced Maven (leads to new src structures) and updated to Java 15" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="336" y="164" width="1248" height="833" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601923969114">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1386" y="198" width="1092" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601910957710" />
+    <state x="336" y="164" width="1248" height="833" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601923969114" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1601055901878">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601055901878" />
+    <state x="650" y="315" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1601923951651">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1111" y="345" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601908772354" />
+    <state x="650" y="315" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601923951651" />
+    <state x="-1125" y="39" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601923136954">
+      <screen x="-1680" y="39" width="1680" height="1010" />
+    </state>
+    <state x="-1125" y="39" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601923136954" />
+    <state x="634" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1600980970772" />
+    <state x="-1605" y="112" width="1142" height="863" key="CommitChangelistDialog2" timestamp="1601922571765">
+      <screen x="-1680" y="39" width="1680" height="1010" />
+    </state>
+    <state x="-1605" y="112" width="1142" height="863" key="CommitChangelistDialog2/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601922571765" />
+    <state x="-1097" y="292" key="FileChooserDialogImpl" timestamp="1601922822317">
+      <screen x="-1680" y="39" width="1680" height="1010" />
+    </state>
+    <state x="-1097" y="292" key="FileChooserDialogImpl/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601922822317" />
+    <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1600974868013" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1601923923863">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601923489298" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601923923863" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1601923923863">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601923489298" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601923923863" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1601923923863">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601923489298" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601923923863" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1601923923863">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601923489298" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601923923863" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1601923665982">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1295" y="130" key="SettingsEditor/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601923341598" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601923665982" />
+    <state x="-1248" y="276" key="Vcs.Push.Dialog.v2" timestamp="1601923419357">
+      <screen x="-1680" y="39" width="1680" height="1010" />
+    </state>
+    <state x="-1248" y="276" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601923419357" />
+    <state x="664" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1600975182998">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="664" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1600975182998" />
   </component>
 </project>
