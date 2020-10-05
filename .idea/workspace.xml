@@ -23,42 +23,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d57072f5-2314-4fe3-85e4-64c4562e82c1" name="Default Changelist" comment="updated to Java 15; fixed POM">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/optimizedsolution/ShapeStackInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/classes/ClassWithMembers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/inheritance/BaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/inheritance/DerivedClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/abstractbaseclass/AbstractShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/abstractbaseclass/DerivedCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/abstractbaseclass/DerivedCompoundShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/abstractbaseclass/DerivedLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/interfacebasedshapes/BetterCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/interfacebasedshapes/BetterCompoundShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/interfacebasedshapes/BetterLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/interfacebasedshapes/BetterShapeCompositionInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/interfacebasedshapes/BetterShapeInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/interfacebasedshapes/BetterShapeMathInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/optimizedsolution/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/optimizedsolution/CompoundShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/optimizedsolution/Line.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/optimizedsolution/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/optimizedsolution/ShapeCompositionInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/optimizedsolution/ShapeInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/optimizedsolution/ShapeMathInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/shapestackgit/ShapeStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/shapestackgit/ShapeStackInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/combat/Combat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/fighter/Aim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/fighter/DarthVader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/fighter/FighterInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/fighter/LightsaberFighter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/fighter/Luke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/fighter/Yoda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/weapon/Lightsaber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/weapon/LightsaberColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bif3/swe1/tdd/weapon/ExceptionLightsaberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bif3/swe1/tdd/weapon/FixtureLightsaberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bif3/swe1/tdd/weapon/SimpleLightsaberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bif3-swe1-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bif3-swe1-java.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +148,7 @@
       <workItem from="1600974660966" duration="3507000" />
       <workItem from="1600978457349" duration="5286000" />
       <workItem from="1601908635902" duration="6559000" />
-      <workItem from="1601923576521" duration="391000" />
+      <workItem from="1601923576521" duration="611000" />
     </task>
     <task id="LOCAL-00001" summary="Upgraded to Java 14">
       <created>1601911924466</created>
@@ -200,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601923414220</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="introduced Maven (leads to new src structures) and updated to Java 15">
+      <created>1601924086477</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601924086477</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +209,8 @@
     <MESSAGE value="renamed Darth to DarthVader" />
     <MESSAGE value="updated to Java 15; fixed POM" />
     <MESSAGE value="introduced Maven (leads to new src structures) and updated to Java 15" />
-    <option name="LAST_COMMIT_MESSAGE" value="introduced Maven (leads to new src structures) and updated to Java 15" />
+    <MESSAGE value="added TDD with sample lightsaber-fight" />
+    <option name="LAST_COMMIT_MESSAGE" value="added TDD with sample lightsaber-fight" />
   </component>
   <component name="WindowStateProjectService">
     <state x="336" y="164" width="1248" height="833" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601923969114">
@@ -255,26 +241,26 @@
     </state>
     <state x="-1097" y="292" key="FileChooserDialogImpl/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601922822317" />
     <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1600974868013" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1601923923863">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1601924006425">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601923489298" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601923923863" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1601923923863">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601924006425" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1601924006425">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="272" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601923489298" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601923923863" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1601923923863">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601924006425" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1601924006424">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="272" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601923489298" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601923923863" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1601923923863">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601924006424" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1601924006425">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601923489298" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601923923863" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601924006425" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1601923665982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
