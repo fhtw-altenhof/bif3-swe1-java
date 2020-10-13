@@ -1,4 +1,4 @@
-package bif3.swe1.tdd.weapon;
+package bif3.swe1.tdd;
 
 import bif3.swe1.oop.polymorphism.optimizedsolution.CompoundShape;
 import bif3.swe1.oop.polymorphism.optimizedsolution.ShapeCompositionInterface;
