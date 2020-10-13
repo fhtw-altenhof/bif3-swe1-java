@@ -1,4 +1,4 @@
-package bif3.swe1.oop.shapestackgit;
+package bif3.swe1.oop.shapestack;
 
 import bif3.swe1.oop.polymorphism.optimizedsolution.ShapeCompositionInterface;
 

@@ -7,6 +7,7 @@ import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class ShapeLibraryIntegrationTests {
     private final int expectedZeroCount = 0;
     private final int expectedOneCount = 1;
@@ -16,12 +17,12 @@ class ShapeLibraryIntegrationTests {
     private CompoundShape _compoundShape;
 
     @BeforeAll
-    public void Setup() {
+    void setup() {
         _compoundShape = new CompoundShape(7, 7);
     }
 
-        [Test]
-    public void TestCompoundShapeMath() {
+    @Test
+    void testCompoundShapeMath() {
         Line line = new Line(0, 1, 1, 1);
         Circle circle = new Circle(5, 5, 3);
         _compoundShape.add(line);
@@ -42,24 +43,26 @@ class ShapeLibraryIntegrationTests {
         assertEquals(expectedAreaSum, actualAreaSum);
     }
 
-    public void TestCompoundShapeContent() {
+    @Test
+    void testCompoundShapeContent() {
         Line line = new Line(0, 1, 1, 1);
         Circle circle = new Circle(5, 5, 3);
 
         // act
-        double actualZeroCount = _compoundShape.count;
+        double actualZeroCount = _compoundShape.getCount();
 
         _compoundShape.add(line);
-        int actualOneCount = _compoundShape.count;
+        int actualOneCount = _compoundShape.getCount();
+        System.out.println("count of test: " + actualOneCount);
 
         _compoundShape.add(circle);
-        int actualTwoCount = _compoundShape.count;
+        int actualTwoCount = _compoundShape.getCount();
 
         _compoundShape.add(new Line(3, 4, 5, 6));
-        int actualThreeCount = _compoundShape.count;
+        int actualThreeCount = _compoundShape.getCount();
 
         _compoundShape.clear();
-        int actualClearCount = _compoundShape.count;
+        int actualClearCount = _compoundShape.getCount();
 
         // assert (not an optimal solution for testing, but shows a way to test with multiple asserts)
         assertEquals(expectedZeroCount, actualZeroCount);
@@ -70,7 +73,7 @@ class ShapeLibraryIntegrationTests {
     }
 
     @AfterEach
-    public void TearDown() {
+    void afterEach() {
         _compoundShape.clear();
     }
 }

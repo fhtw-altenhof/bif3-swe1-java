@@ -6,20 +6,22 @@ import bif3.swe1.oop.polymorphism.optimizedsolution.Line;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestInstance;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ShapeLibraryUnitTest {
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
+class ShapeLibraryUnitTests {
 
     private final int expectedZeroCount = 0;
     private final int expectedOneCount = 1;
 
     @BeforeAll
-    public void Setup() {
+    void setup() {
     }
 
     @Test
-    public void TestLineLengthCalculation() {
+    void testLineLengthCalculation() {
         // allocate
         Line line = new Line(0, 1, 1, 1);
 
@@ -32,7 +34,7 @@ class ShapeLibraryUnitTest {
     }
 
     @Test
-    public void TestCircleAreaCalculation() {
+    void testCircleAreaCalculation() {
         // allocate
         Circle circle = new Circle(5, 5, 3);
 
@@ -45,7 +47,7 @@ class ShapeLibraryUnitTest {
     }
 
     @Test
-    public void TestCompoundShapeAdd() {
+    void testCompoundShapeAdd() {
         // allocate
         CompoundShape compoundShape = new CompoundShape(7, 7);
 
@@ -53,11 +55,11 @@ class ShapeLibraryUnitTest {
         compoundShape.add(new Line(3, 4, 5, 6));
 
         // assert
-        assertEquals(expectedOneCount, compoundShape.count);
+        assertEquals(expectedOneCount, compoundShape.getCount());
     }
 
     @Test
-    public void TestCompoundShapeClear() {
+    void testCompoundShapeClear() {
         // allocate
         CompoundShape compoundShape = new CompoundShape(7, 7);
 
@@ -66,10 +68,10 @@ class ShapeLibraryUnitTest {
         compoundShape.clear();
 
         // assert
-        assertEquals(expectedZeroCount, compoundShape.count);
+        assertEquals(expectedZeroCount, compoundShape.getCount());
     }
 
     @AfterAll
-    public void TearDown() {
+    void tearDown() {
     }
 }

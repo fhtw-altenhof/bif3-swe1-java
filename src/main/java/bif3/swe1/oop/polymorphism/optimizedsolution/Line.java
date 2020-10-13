@@ -5,6 +5,8 @@ public class Line extends Shape implements ShapeCompositionInterface {
 
     public Line(int x1, int y1, int x2, int y2) {
         super(x1, y1);
+        this.x2 = x2;
+        this.y2 = y2;
     }
 
     @Override
@@ -13,9 +15,7 @@ public class Line extends Shape implements ShapeCompositionInterface {
     }
 
     @Override
-    public double getPerimeter() {
-        return Math.sqrt( (x2-x)*(x2-x) + (y2-y)*(y2-y) );
-    }
+    public double getPerimeter() { return Math.sqrt( (this.x2-x)*(this.x2-x) + (this.y2-y)*(this.y2-y) ); }
 
     @Override
     public void printShapeType() {

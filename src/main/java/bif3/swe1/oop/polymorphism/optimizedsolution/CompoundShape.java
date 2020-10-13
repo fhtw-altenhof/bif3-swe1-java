@@ -1,6 +1,7 @@
 package bif3.swe1.oop.polymorphism.optimizedsolution;
 
 import bif3.swe1.oop.polymorphism.abstractbaseclass.AbstractShape;
+import lombok.Getter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,6 +15,7 @@ public class CompoundShape extends Shape implements ShapeCompositionInterface {
 
     public void add(ShapeCompositionInterface shape) {
         shapeList.add(shape);
+        System.out.println("No of elems: " + shapeList.size());
     }
 
     @Override
@@ -42,5 +44,13 @@ public class CompoundShape extends Shape implements ShapeCompositionInterface {
         for(ShapeCompositionInterface shape : shapeList) {
             shape.printShapeType();
         }
+    }
+
+    public void clear() {
+        shapeList.clear();
+    }
+
+    public int getCount() {
+        return shapeList.size();
     }
 }

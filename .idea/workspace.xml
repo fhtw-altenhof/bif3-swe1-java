@@ -23,29 +23,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d57072f5-2314-4fe3-85e4-64c4562e82c1" name="Default Changelist" comment="updated to Java 15; fixed POM">
+      <change afterPath="$PROJECT_DIR$/src/test/java/bif3/swe1/tdd/weapon/ShapeLibraryIntegrationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bif3/swe1/tdd/weapon/ShapeLibraryMockTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bif3/swe1/tdd/weapon/ShapeLibraryUnitTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/classes/ClassWithMembers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/inheritance/BaseClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/inheritance/DerivedClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/abstractbaseclass/AbstractShape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/abstractbaseclass/DerivedCircle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/abstractbaseclass/DerivedCompoundShape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/abstractbaseclass/DerivedLine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/interfacebasedshapes/BetterCircle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/interfacebasedshapes/BetterCompoundShape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/interfacebasedshapes/BetterLine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/interfacebasedshapes/BetterShapeCompositionInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/interfacebasedshapes/BetterShapeInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/interfacebasedshapes/BetterShapeMathInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/optimizedsolution/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/optimizedsolution/CompoundShape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/optimizedsolution/Line.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/optimizedsolution/Shape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/optimizedsolution/ShapeCompositionInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/optimizedsolution/ShapeInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/optimizedsolution/ShapeMathInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/optimizedsolution/ShapeStackInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/optimizedsolution/CompoundShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/optimizedsolution/CompoundShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/optimizedsolution/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/optimizedsolution/Line.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/shapestackgit/ShapeStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/shapestack/ShapeStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/shapestackgit/ShapeStackInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/shapestack/ShapeStackInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/combat/Combat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/fighter/Aim.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/fighter/DarthVader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/fighter/FighterInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/fighter/LightsaberFighter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/fighter/Luke.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/fighter/Yoda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/weapon/Lightsaber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/weapon/LightsaberColor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bif3/swe1/tdd/weapon/ExceptionLightsaberTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bif3/swe1/tdd/weapon/FixtureLightsaberTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bif3/swe1/tdd/weapon/SimpleLightsaberTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +71,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.2\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -98,29 +101,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore.preview.features.used" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaLightsaberFight" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3770115" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.Main TDD">
-    <configuration name="Main OOP" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="bif3.swe1.oop.Main" />
-      <module name="bif3-swe1-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main TDD" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="bif3.swe1.tdd.Main" />
-      <module name="bif3-swe1-java" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MarkusAltenhofer\IdeaProjects\bif3-swe1-java" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.AllTests">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -128,6 +125,13 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main OOP" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="bif3.swe1.oop.Main" />
+      <module name="bif3-swe1-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,14 +147,93 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShapeLibraryIntegrationTests (2)" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="bif3-swe1-java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <option name="PARAMETERS" value="" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:bif3.swe1.tdd.weapon.ShapeLibraryIntegrationTests]" />
+      </uniqueIds>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeLibraryIntegrationTests (3)" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="bif3-swe1-java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <option name="PARAMETERS" value="" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:bif3.swe1.tdd.weapon.ShapeLibraryIntegrationTests]" />
+      </uniqueIds>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeLibraryIntegrationTests (4)" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="bif3-swe1-java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <option name="PARAMETERS" value="" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:bif3.swe1.tdd.weapon.ShapeLibraryIntegrationTests]" />
+      </uniqueIds>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeLibraryIntegrationTests (5)" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="bif3-swe1-java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <option name="PARAMETERS" value="" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:bif3.swe1.tdd.weapon.ShapeLibraryIntegrationTests]" />
+      </uniqueIds>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeLibraryIntegrationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bif3-swe1-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bif3.swe1.tdd.weapon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bif3.swe1.tdd.weapon" />
+      <option name="MAIN_CLASS_NAME" value="bif3.swe1.tdd.weapon.ShapeLibraryIntegrationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main OOP" />
-      <item itemvalue="Application.Main TDD" />
       <item itemvalue="JUnit.AllTests" />
+      <item itemvalue="JUnit.ShapeLibraryIntegrationTests (2)" />
+      <item itemvalue="JUnit.ShapeLibraryIntegrationTests (3)" />
+      <item itemvalue="JUnit.ShapeLibraryIntegrationTests (4)" />
+      <item itemvalue="JUnit.ShapeLibraryIntegrationTests (5)" />
+      <item itemvalue="JUnit.ShapeLibraryIntegrationTests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main TDD" />
+        <item itemvalue="JUnit.ShapeLibraryIntegrationTests" />
+        <item itemvalue="JUnit.ShapeLibraryIntegrationTests (5)" />
+        <item itemvalue="JUnit.ShapeLibraryIntegrationTests (4)" />
+        <item itemvalue="JUnit.ShapeLibraryIntegrationTests (3)" />
+        <item itemvalue="JUnit.ShapeLibraryIntegrationTests (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -246,6 +329,10 @@
     </state>
     <state x="-1386" y="198" width="1092" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601910957710" />
     <state x="336" y="164" width="1248" height="833" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601923969114" />
+    <state x="700" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602604485342">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="700" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602604485342" />
     <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1601055901878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -255,6 +342,10 @@
     </state>
     <state x="-1111" y="345" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601908772354" />
     <state x="650" y="315" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601923951651" />
+    <state x="743" y="389" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602607134399">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="743" y="389" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1602607134399" />
     <state x="-1125" y="39" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601923136954">
       <screen x="-1680" y="39" width="1680" height="1010" />
     </state>
@@ -269,31 +360,56 @@
     </state>
     <state x="-1097" y="292" key="FileChooserDialogImpl/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601922822317" />
     <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1600974868013" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1601928832884">
+    <state width="938" height="348" key="GridCell.Tab.0.bottom" timestamp="1602613096484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601923489298" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601928832884" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1601928832884">
+    <state width="938" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602613096484" />
+    <state width="938" height="348" key="GridCell.Tab.0.center" timestamp="1602613096484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="272" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601923489298" />
     <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601928832884" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1601928832884">
+    <state width="938" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602613096484" />
+    <state width="938" height="348" key="GridCell.Tab.0.left" timestamp="1602613096484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="272" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601923489298" />
     <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601928832884" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1601928832884">
+    <state width="938" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602613096484" />
+    <state width="938" height="348" key="GridCell.Tab.0.right" timestamp="1602613096484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601923489298" />
     <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601928832884" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1601923665982">
+    <state width="938" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602613096484" />
+    <state width="938" height="348" key="GridCell.Tab.1.bottom" timestamp="1602613096484">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602613096484" />
+    <state width="938" height="348" key="GridCell.Tab.1.center" timestamp="1602613096484">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602613096484" />
+    <state width="938" height="348" key="GridCell.Tab.1.left" timestamp="1602613096484">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602613096484" />
+    <state width="938" height="348" key="GridCell.Tab.1.right" timestamp="1602613096484">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602613096484" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1602606159772">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602606159772" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1602607722165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1295" y="130" key="SettingsEditor/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601923341598" />
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601923665982" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602607722165" />
     <state x="-1248" y="276" key="Vcs.Push.Dialog.v2" timestamp="1601923419357">
       <screen x="-1680" y="39" width="1680" height="1010" />
     </state>
@@ -302,5 +418,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="664" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1600975182998" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1602607679177">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602607679177" />
   </component>
 </project>

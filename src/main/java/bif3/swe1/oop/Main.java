@@ -15,8 +15,8 @@ import bif3.swe1.oop.polymorphism.optimizedsolution.Circle;
 import bif3.swe1.oop.polymorphism.optimizedsolution.CompoundShape;
 import bif3.swe1.oop.polymorphism.optimizedsolution.Line;
 import bif3.swe1.oop.polymorphism.optimizedsolution.ShapeCompositionInterface;
-import bif3.swe1.oop.shapestackgit.ShapeStack;
-import bif3.swe1.oop.shapestackgit.ShapeStackInterface;
+import bif3.swe1.oop.shapestack.ShapeStack;
+import bif3.swe1.oop.shapestack.ShapeStackInterface;
 
 public class Main {
 
