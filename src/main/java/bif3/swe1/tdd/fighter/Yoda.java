@@ -1,7 +1,7 @@
 package bif3.swe1.tdd.fighter;
 
 public class Yoda extends LightsaberFighter {
-    private final Aim[] aims = { Aim.DEFENSE, Aim.ATTACK };
+    private final Aim[] aims = {Aim.DEFENSE, Aim.ATTACK};
     private int currentAim = 0;
 
     public Yoda() {
@@ -10,7 +10,7 @@ public class Yoda extends LightsaberFighter {
 
     @Override
     public Aim nextAim() {
-        if( currentAim >= aims.length )
+        if (currentAim >= aims.length)
             currentAim = 0;
         return aims[currentAim++];
     }

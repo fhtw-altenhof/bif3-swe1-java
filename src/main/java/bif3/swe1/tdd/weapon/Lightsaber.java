@@ -14,7 +14,7 @@ public class Lightsaber {
     }
 
     public void setBelongTo(String fighter) {
-        color = switch( fighter ) {
+        color = switch (fighter) {
             case "Luke" -> LightsaberColor.GREEN;
             case "Darth" -> LightsaberColor.RED;
             case "Yoda" -> LightsaberColor.BLUE;

@@ -8,13 +8,13 @@ import lombok.ToString;
 public abstract class LightsaberFighter implements FighterInterface {
 
     @Getter
-    private String name;
+    private final String name;
 
     @Getter
     private int vitality;
 
     @Getter
-    private Lightsaber lightsaber;
+    private final Lightsaber lightsaber;
 
     public LightsaberFighter(String name, int vitality) {
         this.name = name;

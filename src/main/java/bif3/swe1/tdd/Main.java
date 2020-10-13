@@ -1,10 +1,9 @@
 package bif3.swe1.tdd;
 
-import bif3.swe1.tdd.combat.Combat;
-import bif3.swe1.tdd.fighter.DarthVader;
-import bif3.swe1.tdd.fighter.LightsaberFighter;
-import bif3.swe1.tdd.fighter.Luke;
-import bif3.swe1.tdd.fighter.Yoda;
+import bif3.swe1.tdd.combat.BaseCombat;
+import bif3.swe1.tdd.combat.LifeOrDeathCombat;
+import bif3.swe1.tdd.combat.RegularCombat;
+import bif3.swe1.tdd.fighter.*;
 
 import java.util.Optional;
 
@@ -13,17 +12,17 @@ public class Main {
         Luke luke = new Luke();
         DarthVader darthVader = new DarthVader();
 
-        Combat combat1 = new Combat(luke, darthVader);
-        combat1.fightForLifeAndDeath();
+        LifeOrDeathCombat combat1 = new LifeOrDeathCombat(luke, darthVader);
+        combat1.fight();
 
         System.out.println("--------");
 
-        Optional<LightsaberFighter> winner = combat1.getWinner();
-        if( !winner.isEmpty() ) {
+        Optional<FighterInterface> winner = combat1.getWinner();
+        if (!winner.isEmpty()) {
             Yoda yoda = new Yoda();
 
-            Combat combat2 = new Combat(yoda, winner.get());
-            combat2.limitedFight(10);
+            RegularCombat combat2 = new RegularCombat(yoda, winner.get(), 10);
+            combat2.fight();
         }
     }
 }
