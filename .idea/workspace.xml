@@ -23,32 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d57072f5-2314-4fe3-85e4-64c4562e82c1" name="Default Changelist" comment="updated to Java 15; fixed POM">
-      <change afterPath="$PROJECT_DIR$/src/test/java/bif3/swe1/tdd/weapon/ShapeLibraryIntegrationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bif3/swe1/tdd/weapon/ShapeLibraryMockTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bif3/swe1/tdd/weapon/ShapeLibraryUnitTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/optimizedsolution/CompoundShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/optimizedsolution/CompoundShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/optimizedsolution/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/optimizedsolution/Line.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/shapestackgit/ShapeStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/shapestack/ShapeStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/shapestackgit/ShapeStackInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/shapestack/ShapeStackInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/combat/Combat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/fighter/Aim.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/fighter/DarthVader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/fighter/FighterInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/fighter/LightsaberFighter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/fighter/Luke.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/fighter/Yoda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/weapon/Lightsaber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/weapon/LightsaberColor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bif3/swe1/tdd/weapon/ExceptionLightsaberTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bif3/swe1/tdd/weapon/FixtureLightsaberTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bif3/swe1/tdd/weapon/SimpleLightsaberTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bif3/swe1/tdd/ShapeLibraryIntegrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bif3/swe1/tdd/ShapeLibraryIntegrationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -360,30 +337,30 @@
     </state>
     <state x="-1097" y="292" key="FileChooserDialogImpl/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601922822317" />
     <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1600974868013" />
-    <state width="938" height="348" key="GridCell.Tab.0.bottom" timestamp="1602613096484">
+    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1602613737200">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601923489298" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601928832884" />
-    <state width="938" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602613096484" />
-    <state width="938" height="348" key="GridCell.Tab.0.center" timestamp="1602613096484">
+    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602613737200" />
+    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1602613737199">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="272" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601923489298" />
     <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601928832884" />
-    <state width="938" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602613096484" />
-    <state width="938" height="348" key="GridCell.Tab.0.left" timestamp="1602613096484">
+    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602613737199" />
+    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1602613737199">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="272" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601923489298" />
     <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601928832884" />
-    <state width="938" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602613096484" />
-    <state width="938" height="348" key="GridCell.Tab.0.right" timestamp="1602613096484">
+    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602613737199" />
+    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1602613737200">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601923489298" />
     <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601928832884" />
-    <state width="938" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602613096484" />
+    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602613737200" />
     <state width="938" height="348" key="GridCell.Tab.1.bottom" timestamp="1602613096484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

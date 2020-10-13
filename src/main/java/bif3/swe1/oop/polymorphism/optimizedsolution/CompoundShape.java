@@ -15,7 +15,6 @@ public class CompoundShape extends Shape implements ShapeCompositionInterface {
 
     public void add(ShapeCompositionInterface shape) {
         shapeList.add(shape);
-        System.out.println("No of elems: " + shapeList.size());
     }
 
     @Override

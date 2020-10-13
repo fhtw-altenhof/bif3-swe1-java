@@ -53,7 +53,6 @@ class ShapeLibraryIntegrationTests {
 
         _compoundShape.add(line);
         int actualOneCount = _compoundShape.getCount();
-        System.out.println("count of test: " + actualOneCount);
 
         _compoundShape.add(circle);
         int actualTwoCount = _compoundShape.getCount();
