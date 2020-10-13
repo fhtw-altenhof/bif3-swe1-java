@@ -23,29 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d57072f5-2314-4fe3-85e4-64c4562e82c1" name="Default Changelist" comment="updated to Java 15; fixed POM">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/classes/ClassWithMembers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/inheritance/BaseClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/inheritance/DerivedClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/abstractbaseclass/AbstractShape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/abstractbaseclass/DerivedCircle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/abstractbaseclass/DerivedCompoundShape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/abstractbaseclass/DerivedLine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/interfacebasedshapes/BetterCircle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/interfacebasedshapes/BetterCompoundShape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/interfacebasedshapes/BetterLine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/interfacebasedshapes/BetterShapeCompositionInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/interfacebasedshapes/BetterShapeInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/interfacebasedshapes/BetterShapeMathInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/optimizedsolution/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/optimizedsolution/CompoundShape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/optimizedsolution/Line.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/optimizedsolution/Shape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/optimizedsolution/ShapeCompositionInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/optimizedsolution/ShapeInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/optimizedsolution/ShapeMathInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bif3/swe1/oop/polymorphism/optimizedsolution/ShapeStackInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/combat/Combat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/fighter/DarthVader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/fighter/DarthVader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/fighter/FighterInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/fighter/FighterInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/fighter/LightsaberFighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/fighter/LightsaberFighter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/fighter/Luke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/fighter/Luke.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/fighter/Yoda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/fighter/Yoda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/weapon/Lightsaber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/tdd/weapon/Lightsaber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +86,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore.preview.features.used" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaLightsaberFight" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3770115" />
@@ -117,17 +105,6 @@
       <module name="bif3-swe1-java" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,6 +147,7 @@
       <workItem from="1601908635902" duration="6559000" />
       <workItem from="1601923576521" duration="1195000" />
       <workItem from="1601928698674" duration="146000" />
+      <workItem from="1602608868249" duration="288000" />
     </task>
     <task id="LOCAL-00001" summary="Upgraded to Java 14">
       <created>1601911924466</created>
@@ -269,24 +247,28 @@
     </state>
     <state x="-1097" y="292" key="FileChooserDialogImpl/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601922822317" />
     <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1600974868013" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1601928832884">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1602609103288">
+      <screen x="-2560" y="0" width="2048" height="1112" />
     </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom/0.0.1536.824/-2560.0.2048.1112@-2560.0.2048.1112" timestamp="1602609103288" />
     <state width="1637" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601923489298" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601928832884" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1601928832884">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="2005" height="305" key="GridCell.Tab.0.center" timestamp="1602609103288">
+      <screen x="-2560" y="0" width="2048" height="1112" />
     </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.center/0.0.1536.824/-2560.0.2048.1112@-2560.0.2048.1112" timestamp="1602609103288" />
     <state width="1637" height="272" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601923489298" />
     <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601928832884" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1601928832884">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="2005" height="305" key="GridCell.Tab.0.left" timestamp="1602609103288">
+      <screen x="-2560" y="0" width="2048" height="1112" />
     </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.left/0.0.1536.824/-2560.0.2048.1112@-2560.0.2048.1112" timestamp="1602609103288" />
     <state width="1637" height="272" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601923489298" />
     <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601928832884" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1601928832884">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="2005" height="305" key="GridCell.Tab.0.right" timestamp="1602609103288">
+      <screen x="-2560" y="0" width="2048" height="1112" />
     </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.right/0.0.1536.824/-2560.0.2048.1112@-2560.0.2048.1112" timestamp="1602609103288" />
     <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.39.1680.1010@-1680.39.1680.1010" timestamp="1601923489298" />
     <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.39.1680.1010@0.0.1920.1040" timestamp="1601928832884" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1601923665982">
