@@ -17,17 +17,16 @@ class ShapeLibraryUnitTests {
     private final int expectedOneCount = 1;
 
     @BeforeAll
-    void setup() {
-    }
+    void setup() { }
 
     @Test
     void testLineLengthCalculation() {
-        // allocate
+        // arrange
         Line line = new Line(0, 1, 1, 1);
+        double expectedLinePerimeter = 1;
 
         // act
         double actualLinePerimeter = line.getPerimeter();
-        double expectedLinePerimeter = 1;
 
         // assert
         assertEquals(expectedLinePerimeter, actualLinePerimeter);
@@ -35,12 +34,12 @@ class ShapeLibraryUnitTests {
 
     @Test
     void testCircleAreaCalculation() {
-        // allocate
+        // arrange
         Circle circle = new Circle(5, 5, 3);
+        double expectedCircleArea = 28.274333882308139146;
 
         // act
         double actualCircleArea = circle.getArea();
-        double expectedCircleArea = 28.274333882308139146;
 
         // assert
         assertEquals(expectedCircleArea, actualCircleArea);
@@ -48,11 +47,12 @@ class ShapeLibraryUnitTests {
 
     @Test
     void testCompoundShapeAdd() {
-        // allocate
+        // arrange
         CompoundShape compoundShape = new CompoundShape(7, 7);
+        Line line = new Line(3, 4, 5, 6);
 
         // act
-        compoundShape.add(new Line(3, 4, 5, 6));
+        compoundShape.add(line);
 
         // assert
         assertEquals(expectedOneCount, compoundShape.getCount());
@@ -60,11 +60,12 @@ class ShapeLibraryUnitTests {
 
     @Test
     void testCompoundShapeClear() {
-        // allocate
+        // arrange
         CompoundShape compoundShape = new CompoundShape(7, 7);
+        Line line = new Line(3, 4, 5, 6);
 
         // act
-        compoundShape.add(new Line(3, 4, 5, 6));
+        compoundShape.add(line);
         compoundShape.clear();
 
         // assert
@@ -72,6 +73,5 @@ class ShapeLibraryUnitTests {
     }
 
     @AfterAll
-    void tearDown() {
-    }
+    void tearDown() { }
 }

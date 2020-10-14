@@ -14,6 +14,9 @@ import static org.mockito.Mockito.*;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class ShapeLibraryMockTests {
 
+    private final double mockValue1 = 5.0;
+    private final double mockValue2 = 3.0;
+
     @Mock
     ShapeCompositionInterface mockShape;
 
@@ -26,11 +29,11 @@ class ShapeLibraryMockTests {
 
     @Test
     void testCircleShapeMock() {
-        // allocate
+        // arrange
         mockShape = mock(ShapeCompositionInterface.class);
 
-        when(mockShape.getArea()).thenReturn(5.0);
-        when(mockShape.getPerimeter()).thenReturn(3.0);
+        when(mockShape.getArea()).thenReturn(mockValue1);
+        when(mockShape.getPerimeter()).thenReturn(mockValue2);
 
         // act
         double tempArea = mockShape.getArea();
@@ -43,19 +46,19 @@ class ShapeLibraryMockTests {
 
     @Test
     void testCompoundShapeMock() {
-        // allocate
-        var mockShape1 = mock(ShapeCompositionInterface.class);
-        var mockShape2 = mock(ShapeCompositionInterface.class);
+        // arrange
+        double expectedAreaSum = mockValue1 + mockValue2;
+        ShapeCompositionInterface mockShape1 = mock(ShapeCompositionInterface.class);
+        ShapeCompositionInterface mockShape2 = mock(ShapeCompositionInterface.class);
 
-        when(mockShape1.getArea()).thenReturn(5.0);
-        when(mockShape2.getArea()).thenReturn(7.0);
+        when(mockShape1.getArea()).thenReturn(mockValue1);
+        when(mockShape2.getArea()).thenReturn(mockValue2);
 
         // act
         _compoundShape.add(mockShape1);
         _compoundShape.add(mockShape2);
 
         double actualAreaSum = _compoundShape.getArea();
-        double expectedAreaSum = 12;
 
         // assert
         assertEquals(expectedAreaSum, actualAreaSum);

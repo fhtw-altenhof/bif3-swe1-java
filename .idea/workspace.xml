@@ -24,8 +24,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d57072f5-2314-4fe3-85e4-64c4562e82c1" name="Default Changelist" comment="updated to Java 15; fixed POM">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/optimizedsolution/CompoundShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bif3/swe1/oop/polymorphism/optimizedsolution/CompoundShape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bif3/swe1/tdd/ShapeLibraryIntegrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bif3/swe1/tdd/ShapeLibraryIntegrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bif3/swe1/tdd/ShapeLibraryMockTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bif3/swe1/tdd/ShapeLibraryMockTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bif3/swe1/tdd/ShapeLibraryUnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bif3/swe1/tdd/ShapeLibraryUnitTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
